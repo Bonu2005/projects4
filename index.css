@@ -1,0 +1,308 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+.nav{
+    
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    position:fixed ;
+    top: 0;
+    left: 0;
+    margin: 5px;
+}
+.include-nav{
+    
+    /* background-color: rgb(233, 230, 43); */
+    margin: 20px;
+    padding: 10px;
+}
+
+
+.include-nav a{
+    margin: 10px;
+    padding: 10px;
+}
+.icon-nav-small a{
+    width: 100px;
+    background-color: rgb(222, 222, 230); 
+    margin-top: 20px;
+    margin-right: 10px;
+    height: 30px;
+}
+     .include-nav{
+    
+        /* background-color: rgb(233, 230, 43); */
+        margin: 10px;
+        padding: 10px;
+    }
+
+  
+.container{
+    margin: 15px;
+    padding: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav2{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 30px;
+   
+   
+}
+.ul-nav2 {
+    /* background-color:blueviolet ; */
+    width: 800px;  
+}
+.ul-nav2  ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;   
+}
+.include-nav2{
+    width: 300px;
+    
+}
+.input-nav input {
+    display: inline-block;
+    margin: 20px;
+    width: 80%;
+    height: 30px;
+}
+.include-nav2 img{
+    width: 100%;
+    border: 0.1px solid rgb(255, 255, 255);
+    border-style: none;
+    
+}
+
+.icon-nav2 a{
+    /* background-color: cadetblue; */
+    width: 60px;
+    height: 20px;
+    display: inline-block;
+    margin: 20px; 
+}
+.include-nav  #a3
+{
+    color:rgb(76, 209, 227)
+
+}
+.include-nav {
+    font-size: 15px;
+    color:grey;
+}
+.icon-nav2 .set{
+    font-size: 20px;
+}
+.icon-nav2 .bag{
+    font-size: 20px;
+}
+.probel{
+    border: 1px solid rgb(243, 232, 232);
+    margin: 40px;
+   
+}
+.p-futter{
+    text-align: center;
+    color: rgb(167, 166, 166);
+    font-size: 18px;
+}
+
+.ul-futter ul{
+    color:grey;
+    font-size: 15px;
+    
+}
+.h-futter{
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.main-link{
+    color:orangered
+}
+
+
+
+
+
+.main-card{
+    /* border: 2px solid green; */
+    /* background-color: rgb(105, 59, 4); */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.main-img{
+    /* background-color: brown; */
+    width: 600px;
+}
+.main-img img{
+    width: 100%; 
+}
+.main-link{
+    /* background-color: yellow; */
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+.insta{
+    position: fixed ;
+    bottom: 100px;
+    right: 40px;
+    font-size: 60px;
+    border-radius: 50%;
+}
+.tg{
+    position: fixed ;
+    bottom: 190px;
+    right: 40px;
+    font-size: 60px;
+    border-radius: 50%;
+}
+
+
+ .cards{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    
+    
+  
+}
+.card{
+    /* background-color: cadetblue; */
+    box-shadow:3px 2px lightgray;
+    position: absolute;
+    position: relative;
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(247, 235, 235);
+    border-radius: 12px;
+    overflow: hidden;
+   
+}
+.card .btn{
+    border: 0.1px solid white;
+    position: absolute;
+    background-color: rgba(43, 146, 50, 0.896);
+    padding: 2px;
+    top: -40px;
+    left: -60px;
+    width: 100px;
+    height: 35px;
+    color:rgb(231, 228, 228);
+    border-radius: 10px;
+}
+.card img{
+    width: 100%;
+}
+.card button{
+    border-style: none;
+    height: 40px;
+    margin: 20px;
+    margin-left: 80px;
+    width: 50%;
+    margin-top: 60px;
+    color: orange;
+    border: 0.1px solid orange;
+}
+.card button:hover{
+    background-color: black;
+    color: white;
+
+}
+.card .par{
+    margin: 20px;
+    color: rgb(74, 61, 61);
+    font-weight: 0;
+}
+.card p{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.card:hover{
+    transition: 1s;
+    width: 320px;
+}
+
+.cards2{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+  
+}
+.card2{
+    /* background-color: cadetblue; */
+    width: 300px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: orangered;
+    
+}
+.card2 img{
+    width: 100%;
+}
+ 
+.card2 a{
+    margin: 70px;
+    text-align: center;
+}
+.futter{
+    /* background-color: yellowgreen; */
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    margin: 30px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+
+
+
